@@ -6,42 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Pocket</title>
     <link rel="shortcut icon" href="assets/image/Pet_Pocket_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
     <header>
-        <a href=""><span>Pet Pocket</span></a>
-        <a href="html/regis_start.html">Sign Up</a>
+        <a href="#" class="title">Pet Pocket</a>
+        <a class="topButton" href="html/regist_1.html">Sign Up</a>
     </header>
     <br>
-    <div class="icon"><img src="assets/image/Pet_Pocket_logo.png" alt="k_pet_pocket"></div>
     <div class="container">
-        <form>
-            <div>
-                <h1>
+        <img class="icon" src="assets/image/Pet_Pocket_logo.png" alt="k_pet_pocket">
+
+        <form class="form">
+            <div class="container">
+                <h1 id="login">
                     Log In
                 </h1>
-            </div>
-            <div>
-                <input type="text" value="User">
+                <input class="input" id="input1" type="text" placeholder="User">
                 <br><br>
-                <input type="password" value="Password">
+                <input class="input" id="input2" type="password" placeholder="Password">
                 <br><br>
-                <button>
-                    <span><img src="assets/image/huella.png" alt=""><span>Continue</span></span>
+                <button class="primaryButton" id="button1">
+                    <span><img class="paw" src="assets/image/huella.png" alt=""><span>Continue</span></span>
                 </button>
-                <a href="">
+                <a id="recPassword" href="">
                     <p>Forgot your password?</p>
                 </a>
             </div>
         </form>
     </div>
     <footer>
-        <a href="#">Pet Pocket</a>
-        <a href="">
-            <p>Help!</p>
-        </a>
-
+        <a class="foot" id="foot1" href="#">Pet Pocket</a>
+        <a class="foot" id="foot2" href="">Help!</a>
     </footer>
 </body>
 
