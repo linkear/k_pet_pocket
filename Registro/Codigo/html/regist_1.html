@@ -5,61 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Pocket</title>
-    <link rel="shortcut icon" href="../assets/image/Pet_Pocket_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icon/Pet_Pocket_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
-        <!--Averiguar como mantener el header e ir insertando 
-            las ótras páginas aquí-->
-        <a href="../index.html"><span>Pet Pocket</span></a>
-        <a href="../index.html">Log In</a>
+        <a class="title" href="../index.html">Pet Pocket</a>
+        <a class="topButton" href="../index.html">Log In</a>
     </header>
-    <br>
-    <div class="icon">
-        <img src="../assets/image/Pet_Pocket_logo.png" alt="k_pet_pocket">
-    </div>
     <div class="container">
-        <form>
-            <div>
-                <h1>
-                    Sing Up
+        <img class="icon" src="../assets/icon/Pet_Pocket_logo.png" alt="k_pet_pocket">
+        <form class="form">
+            <div class="container">
+                <h1 class="title2" id="regsign">
+                    Sign Up
                 </h1>
-            </div>
-            <div>
-                <input type="text" value="Phone Number / E-mail">
+                <input class="input" id="input3" type="text" placeholder="Phone Number/E-mail">
                 <br><br>
-                <input type="password" value="Password">
+                <input class="input" id="input4" type="password" placeholder="Password">
                 <br><br>
-                <input type="password" value="Repeat Password">
+                <input class="input" id="input5" type="password" placeholder="Repeat Password">
                 <br><br>
-                <button>
-                    <span><img src="../assets/image/facebook-icon.png" alt="facebook-icon">
-                        <span>Continue with Facebook</span>
+                <button class="input" id="button2">
+                    <span><img id="facicon" src="../assets/icon/facebook-icon.png" alt="facebook-icon">
+                        <span id="facebook">Continue with Facebook</span>
                     </span>
                 </button>
                 <br><br>
-                <button>
-                    <span><img src="../assets/image/Google_icon.png" alt="google-icon">
-                        <span>Continue with google</span>
+                <button class="input" id="button3">
+                    <span><img id="goglicon" src="../assets/icon/Google_icon.png" alt="google-icon">
+                        <span id="google">Continue with google</span>
                     </span>
                 </button>
                 <br><br>
             </div>
         </form>
     </div>
-    <button>
-        <span><img src="../assets/image/huella.png" alt="">
-            <a href="regist_end.html"><span>Continue</span></a>
+    <button class="primaryButton" id="button4">
+        <span><img class="paw" src="../assets/icon/huella.png" alt="">
+            <a id="continue1" href="regist_2.html">Continue</a>
         </span>
     </button>
     <footer>
-        <!--Averiguar como mantener el footer e ir insertando 
-            las ótras páginas aquí-->
-        <a href="../index.html">Pet Pocket</a>
-        <a href="">
-            <p>Help!</p>
-        </a>
+        <a class="foot foot1" href="../index.html">Pet Pocket</a>
+        <a class="foot foot2" href="">Help!</a>
     </footer>
 </body>
 
