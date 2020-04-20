@@ -5,30 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Pocket</title>
-    <link rel="shortcut icon" href="../assets/image/Pet_Pocket_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/icon/Pet_Pocket_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
-        <!--Averiguar como mantener el header e ir insertando 
-            las ótras páginas aquí-->
-        <a href="../index.html"><span>Pet Pocket</span></a>
-        <a href="../index.html">Exit</a>
+        <a class="title" href="../index.html"><span>Pet Pocket</span></a>
+        <a class="exitButton" href="../index.html">Exit</a>
     </header>
-    <br>
-    <div class="icon">
-        <img src="../assets/image/Pet_Pocket_logo.png" alt="k_pet_pocket">
-    </div>
     <div class="container">
-        <form>
-            <div>
-                <h1>
+        <img class="icon" src="../assets/icon/Pet_Pocket_logo.png" alt="k_pet_pocket">
+        <form class="form" id="businesReg">
+            <div class="container">
+                <h1 class="title2" id="businesSign">
                     Sign Up
                 </h1>
-            </div>
-            <div>
-                <label for="businesOptions">I'm a</label>
-                <select name="options" id="businesOptions">
+                <label id="label1" class="title2" for="businesOptions">I'm a</label>
+                <select class="input" name="options" id="businesOptions">
                     <option value="veterinary">Veterinary</option>
                     <option value="pet shop">Pet Shop</option>
                     <option value="dog aesthetics">Dog Aesthetics</option>
@@ -36,49 +30,47 @@
                     <option value="other">Other</option>
                 </select>
                 <br><br>
-                <input type="text" value="Name">
+                <input class="input" id="input9" type="text" placeholder="Name">
                 <br><br>
-                <input type="button" value="Ubication">
+                <input class="input" id="businesUbication" type="button" value="Ubication">
                 <br><br>
-                <label for="phone_number">Phone number</label>
-                <input type="number" name="phone_number" id="phone_number">
+                <input class="input" id="input10" type="number" placeholder="Phone Number">
                 <br><br>
-                <input type="email" value="E-mail">
+                <input class="input" id="input11" type="email" placeholder="E-mail">
                 <br><br>
-                <textarea name="biography" id="biography" cols="30" rows="10">Tell us something about you</textarea>
+                <textarea class="input" id="biography" name="biography" cols="37" rows="10"
+                    placeholder="Tell us something about you"></textarea>
                 <br><br>
-                <input type="file" name="Photo" id="businesPhoto">
-                <br><br>
-                <h1>
+                <h1 class="title2" id="socMedia">
                     Social media
                 </h1>
-                <input type="text" name="Link" id="socialLink">
-                <select name="options" id="socialOptions">
+                <input class="input" id="socialLink" type="text" placeholder="Link">
+                <select class="input" id="socialOptions" name="options">
                     <option value="Facebook">Facebook</option>
                     <option value="Twittet">Twittet</option>
                     <option value="Instagram">Instagram</option>
                     <option value="Pinterest">Pinterest</option>
                     <option value="Web">Web</option>
-                    <option value="Oter">Oter</option>
+                    <option value="Other">Other</option>
                 </select>
                 <br><br>
-                <button>+</button>
             </div>
         </form>
+        <button id="addButton">
+            <span id="plus">+</span>
+        </button>
     </div>
     <br>
-    <button>
-        <span><img src="../assets/image/huella.png" alt="">
+    <button class="primaryButton" id="button6">
+        <span><img class="paw" src="../assets/icon/huella.png" alt="">
             <span>Register</span>
         </span>
     </button>
     <footer>
         <!--Averiguar como mantener el footer e ir insertando 
             las ótras páginas aquí-->
-        <a href="../index.html">Pet Pocket</a>
-        <a href="">
-            <p>Help!</p>
-        </a>
+        <a class="foot foot1" href="../index.html">Pet Pocket</a>
+        <a class="foot foot2" href="">Help!</a>
     </footer>
 </body>
 
