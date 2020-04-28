@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Pocket</title>
-    <link rel="shortcut icon" href="assets/icon/Pet_Pocket_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icon/Pet_Pocket_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style_busines.css">
 </head>
@@ -23,12 +23,14 @@
                     Sign Up
                 </h1>
                 <label id="label1" class="title2" for="businesOptions">I'm a</label>
+                <input type="text" class="input" id="hidenInput">
+                <input type="button" value="" id="businesDropDown">
                 <select class="input" name="options" id="businesOptions">
-                    <option value="veterinary">Veterinary</option>
-                    <option value="pet shop">Pet Shop</option>
-                    <option value="dog aesthetics">Dog Aesthetics</option>
-                    <option value="pet sitting">Pet Sitting</option>
-                    <option value="other">Other</option>
+                    <option value="Veterinary">Veterinary</option>
+                    <option value="Pet shop">Pet Shop</option>
+                    <option value="Dog aesthetics">Dog Aesthetics</option>
+                    <option value="Pet sitting">Pet Sitting</option>
+                    <option value="Other">Other</option>
                 </select>
                 <br><br>
                 <input class="input" id="input9" type="text" placeholder="Name">
@@ -41,24 +43,24 @@
                 <br><br>
                 <textarea class="input" id="biography" name="biography" cols="37" rows="10"
                     placeholder="Tell us something about you"></textarea>
-                <br><br>
                 <h1 class="title2" id="socMedia">
                     Social media
                 </h1>
-                <input class="input" id="socialLink" type="text" placeholder="Link">
-                <select class="input" id="socialOptions" name="options">
-                    <option value="Facebook">Facebook</option>
-                    <option value="Twittet">Twittet</option>
-                    <option value="Twittet">WhatsApp</option>
-                    <option value="Instagram">Instagram</option>
-                    <option value="Pinterest">Pinterest</option>
-                    <option value="Web">Web</option>
-                    <option value="Other">Other</option>
-                </select>
-                <br><br>
+                <div id="mediaContent">
+                    <input class="socialLink" id="socialLink1" type="text" placeholder="Link">
+                    <select class="socialOptions" id="socialOptions1" name="options">
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twittet">Twittet</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Pinterest">Pinterest</option>
+                        <option value="Web">Web</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
             </div>
         </form>
-        <button id="addButton">
+        <button id="addButton" onclick="addNewSocial()">
             <span id="plus">+</span>
         </button>
     </div>
@@ -68,12 +70,13 @@
             <span>Register</span>
         </span>
     </button>
-    <footer>
+    <footer id="footerBusines">
         <!--Averiguar como mantener el footer e ir insertando 
             las ótras páginas aquí-->
         <a class="foot foot1" href="../index.html">Pet Pocket</a>
         <a class="foot foot2" href="">Help!</a>
     </footer>
 </body>
+<script src="../js/businesstyle.js"></script>
 
 </html>

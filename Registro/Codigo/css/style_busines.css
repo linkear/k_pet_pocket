@@ -1,5 +1,5 @@
 /*-----Busines-----*/
-body{
+body {
     background-image: url('../assets/background/fondo04.jpg');
     background-size: cover;
     background-position: center;
@@ -28,6 +28,32 @@ body{
     width: 320px;
     font-size: 23px;
     padding: 0 20px;
+    display: inline-block;
+}
+
+#hidenInput {
+    top: 45px;
+    left: 150px;
+    width: 320px;
+    font-size: 23px;
+    display: none;
+}
+
+#businesDropDown {
+    position: absolute;
+    top: 60px;
+    left: 480px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    background-image: url('../assets/icon/drop_down.png');
+    background-position: center;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
 }
 
 #input9 {
@@ -75,19 +101,37 @@ body{
     right: 30%;
 }
 
-#socialLink {
-    top: 570px;
-    left: 30px;
-    width: 330px;
-    font-size: 23px;
+#mediaContent {
+    position: relative;
+    top: 440px;
+    width: auto;
+    height: 65px;
+    padding: 0 15px;
 }
 
-#socialOptions {
-    top: 570px;
-    right: 10px;
+.socialLink {
+    width: 300px;
+    height: 50px;
+    font-size: 23px;
+    margin: 10px;
+    display: inline;
+    background: white;
+    color: #5B5B5B;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.socialOptions {
     width: 120px;
+    height: 50px;
     font-size: 17px;
     padding: 15px 10px;
+    margin: 10px 5px;
+    background: white;
+    color: #5B5B5B;
+    text-align: center;
+    border-radius: 15px;
+    display: inline;
 }
 
 #addButton {
@@ -116,6 +160,6 @@ body{
     right: 45%;
 }
 
-footer{
+#footerBusines {
     top: 880px;
 }
