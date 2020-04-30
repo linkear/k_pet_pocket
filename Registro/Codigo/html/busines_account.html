@@ -17,64 +17,67 @@
     </header>
     <div class="container">
         <img class="icon" src="../assets/icon/Pet_Pocket_logo.png" alt="k_pet_pocket">
-        <form class="form" id="businesReg">
-            <div class="container">
-                <h1 class="title2" id="businesSign">
-                    Sign Up
-                </h1>
-                <label id="label1" class="title2" for="businesOptions">I'm a</label>
-                <input type="text" class="input" id="hidenInput">
-                <input type="button" value="" id="businesDropDown">
-                <select class="input" name="options" id="businesOptions">
-                    <option value="Veterinary">Veterinary</option>
-                    <option value="Pet shop">Pet Shop</option>
-                    <option value="Dog aesthetics">Dog Aesthetics</option>
-                    <option value="Pet sitting">Pet Sitting</option>
-                    <option value="Other">Other</option>
-                </select>
-                <br><br>
-                <input class="input" id="input9" type="text" placeholder="Name">
-                <br><br>
-                <input class="input" id="businesUbication" type="button" value="Ubication">
-                <br><br>
-                <input class="input" id="input10" type="number" placeholder="Phone Number">
-                <br><br>
-                <input class="input" id="input11" type="email" placeholder="E-mail">
-                <br><br>
-                <textarea class="input" id="biography" name="biography" cols="37" rows="10"
-                    placeholder="Tell us something about you"></textarea>
-                <h1 class="title2" id="socMedia">
-                    Social media
-                </h1>
-                <div id="mediaContent">
-                    <input class="socialLink" id="socialLink1" type="text" placeholder="Link">
-                    <select class="socialOptions" id="socialOptions1" name="options">
-                        <option value="Facebook">Facebook</option>
-                        <option value="Twittet">Twittet</option>
-                        <option value="WhatsApp">WhatsApp</option>
-                        <option value="Instagram">Instagram</option>
-                        <option value="Pinterest">Pinterest</option>
-                        <option value="Web">Web</option>
-                        <option value="Other">Other</option>
-                    </select>
+        <div id="businessDiv">
+            <form class="form" id="businesReg">
+                <div class="container">
+                    <h1 class="title2" id="businesSign">
+                        Sign Up
+                    </h1>
+                    <div id="hidenDiv">
+                        <label class="title2" for="businesOptions" id="label1">I'm a</label>
+                        <input type="text" class="input" id="hidenInput">
+                        <input type="button" value="" id="businesDropDown">
+                        <select class="input" name="options" id="businesOptions">
+                            <option value="Veterinary">Veterinary</option>
+                            <option value="Pet shop">Pet Shop</option>
+                            <option value="Dog aesthetics">Dog Aesthetics</option>
+                            <option value="Pet sitting">Pet Sitting</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <input class="input" id="input9" type="text" placeholder="Name">
+                    <br><br>
+                    <input class="input" id="businesUbication" type="button" value="Ubication">
+                    <br><br>
+                    <input class="input" id="input10" type="number" placeholder="Phone Number">
+                    <br><br>
+                    <input class="input" id="input11" type="email" placeholder="E-mail">
+                    <br><br>
+                    <textarea class="input" id="biography" name="biography" cols="37" rows="10"
+                        placeholder="Tell us something about you"></textarea>
+                    <h1 class="title2" id="socMedia">
+                        Social media
+                    </h1>
+                    <div id="mediaContent">
+                        <input class="socialLink" id="socialLink1" type="text" placeholder="Link">
+                        <select class="socialOptions" id="socialOptions1" name="options">
+                            <option value="Facebook">Facebook</option>
+                            <option value="Twittet">Twittet</option>
+                            <option value="WhatsApp">WhatsApp</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Pinterest">Pinterest</option>
+                            <option value="Web">Web</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-        </form>
-        <button id="addButton" onclick="addNewSocial()">
-            <span id="plus">+</span>
-        </button>
+            </form>
+            <button id="addButton" onclick="addNewSocial()">
+                <span id="plus">+</span>
+            </button>
+            <button class="primaryButton" id="button6">
+                <span><img class="paw" src="../assets/icon/huella.png" alt="">
+                    <span>Register</span>
+                </span>
+            </button>
+        </div>
     </div>
-    <br>
-    <button class="primaryButton" id="button6">
-        <span><img class="paw" src="../assets/icon/huella.png" alt="">
-            <span>Register</span>
-        </span>
-    </button>
     <footer id="footerBusines">
-        <!--Averiguar como mantener el footer e ir insertando 
-            las ótras páginas aquí-->
-        <a class="foot foot1" href="../index.html">Pet Pocket</a>
-        <a class="foot foot2" href="">Help!</a>
+        <a class="foot foot1" href="index.html">Linkear</a>
+        <p class="foot foot2">Contacts:</p>
+        <p class="foot foot3">pet_pocket@linkear.net</p>
+        <p class="foot foot4">0999999999</p>
     </footer>
 </body>
 <script src="../js/businesstyle.js"></script>

@@ -19,56 +19,57 @@
     </header>
     <div class="container">
         <img class="icon" src="../assets/icon/Pet_Pocket_logo.png" alt="k_pet_pocket">
-        <form class="form" id="regform">
-            <div class="container">
-                <h1 class="title2" id="welcome">
-                    Welcome!
-                </h1>
-                <input class="input" id="input6" type="text" placeholder="Confirmation Code">
-                <br><br>
-                <input class="input" id="input7" type="text" placeholder="Name of your Pet">
-                <br><br>
-                <input class="input" id="input8" type="number" placeholder="Chip Number">
-                <br>
-                <label for="noChip" id="noChipLabel">Don't have a chip</label>
-                <input type="checkbox" name="noChip" id="noChip">
-                <br><br>
-                <div class="input" id="photo">
-                    <span id="photoText">Photo</span>
-                    <input type="file" id="photoButton">
+        <div id="container2">
+            <form class="form" id="regform">
+                <div class="container">
+                    <h1 class="title2" id="welcome">
+                        Welcome!
+                    </h1>
+                    <input class="input" id="input6" type="text" placeholder="Confirmation Code">
+                    <input class="input" id="input7" type="text" placeholder="Name of your Pet">
+                    <div id="chipDiv">
+                        <input class="input" id="input8" type="number" placeholder="Chip Number">
+                        <label for="noChip" id="noChipLabel">Don't have a chip</label>
+                        <input type="checkbox" name="noChip" id="noChip">
+                    </div>
+                    <div class="input" id="photo">
+                        <span id="photoText">Photo</span>
+                        <input type="file" id="photoButton">
+                    </div>
+                    <br><br>
+                    <input class="input" id="ubication" type="button" value="Ubication">
+                    <br><br>
+                    <input class="input" id="age" type="number" name="Age" placeholder="Age">
+                    <br><br>
+                    <input class="input" id="weight" type="number" name="Weight" placeholder="Weight 'Kg'">
+                    <div id="selectDiv">
+                        <input type="text" id="other" class="input">
+                        <input type="button" id="selectBack">
+                        <select class="input" id="select" name="options">
+                            <option value="Breed">Breed</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                            <option value="Fish">Fish</option>
+                            <option value="Mouse">Mouse</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div id="line"></div>
+                    <a id="busines" href="busines_account.html">Create a busines account</a>
                 </div>
-                <br><br>
-                <input class="input" id="ubication" type="button" value="Ubication">
-                <br><br>
-                <input class="input" id="age" type="number" name="Age" placeholder="Age">
-                <br><br>
-                <input class="input" id="weight" type="number" name="Weight" placeholder="Weight 'Kg'">
-                <br><br>
-                <input type="text" id="other" class="input">
-                <input type="button" id="selectBack">
-                <select class="input" id="select" name="options">
-                    <option value="Breed">Breed</option>
-                    <option value="Dog">Dog</option>
-                    <option value="Cat">Cat</option>
-                    <option value="Fish">Fish</option>
-                    <option value="Mouse">Mouse</option>
-                    <option value="Other">Other</option>
-                </select>
-                <br><br>
-                <div id="line"></div>
-                <a id="busines" href="busines_account.html">Create a busines account</a>
-            </div>
-        </form>
-        
+            </form>
+            <button class="primaryButton" id="button5">
+                <span><img class="paw" src="../assets/icon/huella.png" alt="">
+                    <span>Register</span>
+                </span>
+            </button>
+        </div>
     </div>
-    <button class="primaryButton" id="button5">
-        <span><img class="paw" src="../assets/icon/huella.png" alt="">
-            <span>Register</span>
-        </span>
-    </button>
     <footer>
-        <a class="foot foot1" href="../index.html">Pet Pocket</a>
-        <a class="foot foot2" href="">Help!</a>
+        <a class="foot foot1" href="index.html">Linkear</a>
+        <p class="foot foot2">Contacts:</p>
+        <p class="foot foot3">pet_pocket@linkear.net</p>
+        <p class="foot foot4">0999999999</p>
     </footer>
 </body>
 <script src="../js/regist2style.js"></script>

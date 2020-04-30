@@ -37,21 +37,16 @@ var addNewSocial = function () {
         return
     } else {
         contador += 1
-        newHeight = (70 + (65 * contador)) + 'px'
+        newHeight = (65 + (65 * contador)) + 'px'
         socialContainer.style.height = newHeight;
-        console.log('div rojo ' + newHeight);
         formHeight = (670 + (65 * contador)) + 'px'
         form.style.height = formHeight;
-        console.log('formulario ' + formHeight);
-        addButtonHeight = (690 + (65 * contador)) + 'px'
+        addButtonHeight = (630 + (65 * contador)) + 'px'
         addButton.style.top = addButtonHeight;
-        console.log('add Button ' + addButtonHeight);
-        regButtonHeight = (810 + (65 * contador)) + 'px'
+        regButtonHeight = (690 + (65 * contador)) + 'px'
         regButton.style.top = regButtonHeight;
-        console.log('reg Button ' + regButtonHeight);
         footerHeight = (880 + (65 * contador)) + 'px'
         footer.style.top = footerHeight;
-        console.log('footer ' + footerHeight);
 
         newSocial = document.createElement('input')
         socialContainer.appendChild(newSocial)

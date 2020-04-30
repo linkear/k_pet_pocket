@@ -5,44 +5,57 @@ body {
     background-position: center;
 }
 
+#businessDiv {
+    position: absolute;
+    top: 25px;
+    left: 30%;
+    width: 40%;
+    min-width: 200px;
+    height: 760px;
+}
+
 #businesReg {
     height: 670px;
-    width: 500px;
-    right: 31%;
-    padding: 2%;
+    width: 100%;
+    min-width: 200px;
+    right: 0;
+    top: 0;
 }
 
 #businesSign {
-    top: -10px;
-    right: 38%;
+    top: 15px;
+    right: 35%;
+}
+
+#hidenDiv {
+
+    width: 84%;
+    position: absolute;
+    top: 65px;
+    left: 8%;
+    height: 50px;
+    text-align: left;
 }
 
 #label1 {
-    top: 45px;
-    left: 30px;
-}
-
-#businesOptions {
-    top: 45px;
-    left: 150px;
-    width: 320px;
-    font-size: 23px;
-    padding: 0 20px;
-    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 5px;
 }
 
 #hidenInput {
-    top: 45px;
-    left: 150px;
-    width: 320px;
+    left: none;
+    right: 0;
+    width: 65%;
+    min-width: 120px;
     font-size: 23px;
     display: none;
 }
 
 #businesDropDown {
     position: absolute;
-    top: 60px;
-    left: 480px;
+    top: 15px;
+    right: 0;
     width: 20px;
     height: 20px;
     background-color: white;
@@ -56,39 +69,54 @@ body {
     display: none;
 }
 
+#businesOptions {
+    position: absolute;
+    right: 0;
+    width: 65%;
+    max-width: 320px;
+    min-width: 120px;
+    font-size: 23px;
+    padding: 0 20px;
+}
+
 #input9 {
-    top: 105px;
-    left: 30px;
-    width: 440px;
+    top: 120px;
+    left: 8%;
+    width: 84%;
+    min-width: 180px;
     font-size: 23px;
 }
 
 #businesUbication {
-    top: 165px;
-    left: 30px;
-    width: 440px;
+    top: 175px;
+    left: 8%;
+    width: 84%;
+    min-width: 180px;
     cursor: pointer;
     font-size: 23px;
 }
 
 #input10 {
-    top: 225px;
-    left: 30px;
-    width: 440px;
+    top: 230px;
+    left: 8%;
+    width: 84%;
+    min-width: 180px;
     font-size: 23px;
 }
 
 #input11 {
     top: 285px;
-    left: 30px;
-    width: 440px;
+    left: 8%;
+    width: 84%;
+    min-width: 180px;
     font-size: 23px;
 }
 
 #biography {
     top: 345px;
-    left: 30px;
-    width: 410px;
+    left: 8%;
+    width: 78%;
+    min-width: 180px;
     height: 150px;
     font-size: 20px;
     text-align: left;
@@ -97,20 +125,22 @@ body {
 }
 
 #socMedia {
-    top: 525px;
+    top: 520px;
     right: 30%;
 }
 
 #mediaContent {
     position: relative;
-    top: 440px;
+    top: 425px;
     width: auto;
+    min-width: 180px;
     height: 65px;
-    padding: 0 15px;
+    padding: 0 5%;
 }
 
 .socialLink {
-    width: 300px;
+    width: 65%;
+    min-width: 100px;
     height: 50px;
     font-size: 23px;
     margin: 10px;
@@ -122,7 +152,8 @@ body {
 }
 
 .socialOptions {
-    width: 120px;
+    width: 25%;
+    min-width: 80px;
     height: 50px;
     font-size: 17px;
     padding: 15px 10px;
@@ -141,8 +172,8 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 690px;
-    left: 47%;
+    top: 630px;
+    left: 45%;
 }
 
 #plus {
@@ -156,10 +187,116 @@ body {
 }
 
 #button6 {
-    top: 810px;
-    right: 45%;
+    top: 690px;
+    left: 32%;
+    background-color: #0DB9A1;
 }
 
 #footerBusines {
     top: 880px;
+}
+
+@media screen and (max-width: 939px) {
+    #biography {
+        height: 130px;
+    }
+
+    #socMedia {
+        top: 500px;
+        right: 0;
+        left: 15%;
+    }
+
+    #mediaContent {
+        padding: 0 0;
+        margin: 0 0;
+    }
+
+    .socialLink {
+        width: 60%;
+        min-width: 80px;
+    }
+
+    .socialOptions {
+        width: 28%;
+        min-width: 50px;
+    }
+
+}
+
+@media screen and (max-width: 749px) {
+
+    #businessDiv {
+        top: 150px;
+        width: 270px;
+    }
+
+    #footerBusines {
+        top: 980px;
+    }
+
+    #hidenDiv {
+        width: 230px;
+    }
+
+    #label1 {
+        top: 10px;
+        font-size: 28px;
+    }
+
+    #hidenInput {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    #businesOptions {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    #input9 {
+        width: 230px;
+    }
+
+    #businesUbication {
+        width: 230px;
+    }
+
+    #input10 {
+        width: 230px;
+    }
+
+    #input11 {
+        width: 230px;
+    }
+
+    #biography {
+        height: 130px;
+        width: 200px;
+    }
+
+    #socMedia {
+        top: 500px;
+        right: 0;
+        left: 15%;
+    }
+
+    #mediaContent {
+        padding: 0 0;
+        margin: 0 0;
+        width: 100%;
+    }
+
+    .socialLink {
+        width: 140px;
+        margin: 4px;
+    }
+
+    .socialOptions {
+        width: 105px;
+    }
+
+    #button6 {
+        left: 20%;
+    }
 }

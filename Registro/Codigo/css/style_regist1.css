@@ -1,11 +1,21 @@
 /*-----regist_1-----*/
-body{
+body {
     background-image: url('../assets/background/fondo17.jpg');
     background-size: cover;
 }
 
-#reg1Form {
+#container1 {
+    position: absolute;
+    right: 10%;
     top: 20px;
+    width: 350px;
+    height: 470px;
+    padding: 0;
+}
+
+#reg1Form {
+    top: 0;
+    right: 0;
     height: 390px;
 }
 
@@ -37,8 +47,8 @@ body{
 
 #button2 {
     background-color: #475A96;
-    top: 285px;
-    right: 118px;
+    top: 265px;
+    left: 17%;
     cursor: pointer;
 }
 
@@ -60,8 +70,8 @@ body{
 }
 
 #button3 {
-    top: 345px;
-    right: 118px;
+    top: 325px;
+    left: 17%;
     cursor: pointer;
 }
 
@@ -83,8 +93,9 @@ body{
 }
 
 #button4 {
-    top: 470px;
-    right: 152px;
+    top: 410px;
+    left: 28%;
+    ;
 }
 
 #continue1 {
@@ -92,4 +103,18 @@ body{
     font-size: 23px;
     color: white;
     font-weight: bold;
+
+}
+
+@media screen and (max-width:561px) {
+    #container1 {
+        top: 143px;
+        right: 15%;
+    }
+}
+
+@media scren and (max-width: 441px) {
+    #container1 {
+        right: 0;
+    }
 }

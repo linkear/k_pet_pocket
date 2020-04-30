@@ -2,15 +2,24 @@
 body {
     background-image: url('../assets/background/fondo02.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: contain;
     background-color: #EBEBEB;
 }
 
+#container2 {
+    position: absolute;
+    top: 25px;
+    margin: 0 28%;
+    width: 44%;
+    height: 460px;
+
+}
+
 #regform {
-    top: 20PX;
-    right: 30%;
-    width: 600px;
+    top: 0;
+    right: 0;
+    width: 100%;
     height: 380px;
 }
 
@@ -21,39 +30,54 @@ body {
 
 #input6 {
     top: 70px;
-    left: 45px;
-    width: 280px;
-    font-size: 23px;
+    left: 8%;
+    width: 45%;
+    min-width: 200px;
+    font-size: 170%;
+    display: inline-block;
 }
 
 #input7 {
     top: 130px;
-    left: 45px;
-    width: 280px;
-    font-size: 23px;
+    left: 8%;
+    width: 45%;
+    min-width: 200px;
+    font-size: 170%;
+    display: inline-block;
+}
+
+#chipDiv {
+    position: absolute;
+    top: 190px;
+    left: 8%;
+    width: 40%;
+    min-width: 180px;
+    height: 65px;
 }
 
 #input8 {
-    top: 190px;
-    left: 45px;
-    width: 230px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 180px;
     height: 40px;
-    font-size: 23px;
+    display: inline-block;
+    font-size: 170%;
     -webkit-appearance: none;
 }
 
 #noChip {
     position: absolute;
-    top: 236px;
-    left: 56px;
+    top: 0;
+    left: 0;
     cursor: pointer;
     opacity: 0;
 }
 
 #noChipLabel {
     position: absolute;
-    top: 235px;
-    left: 75px;
+    top: 45px;
+    left: 10%;
     color: #B24025;
     font-size: 15px;
     --bg-pseudo: ;
@@ -77,15 +101,16 @@ body {
 
 #photo {
     top: 70px;
-    right: 40px;
-    width: 200px;
+    right: 8%;
+    width: 32%;
+    min-width: 150px;
     height: 130px;
 }
 
 #photoText {
     position: absolute;
     top: 50px;
-    left: 60px;
+    left: 28%;
     font-size: 30px;
     color: #5B5B5B;
 }
@@ -99,8 +124,9 @@ body {
 
 #ubication {
     top: 210px;
-    right: 40px;
-    width: 200px;
+    right: 8%;
+    width: 3%;
+    min-width: 150px;
     color: #5B5B5B;
     cursor: pointer;
     font-size: 23px;
@@ -108,40 +134,51 @@ body {
 
 #age {
     top: 270px;
-    left: 50px;
-    width: 120px;
+    left: 8%;
+    width: 18%;
+    min-width: 90px;
     font-size: 23px;
 }
 
 #weight {
     top: 270px;
-    left: 200px;
-    width: 120px;
-    font-size: 20px;
-    padding: 0 10px;
+    left: 33%;
+    width: 20%;
+    min-width: 70px;
+    font-size: 150%;
+    padding: 0 15px;
+}
+
+#selectDiv {
+    position: absolute;
+    top: 270px;
+    right: 8%;
+    width: 30%;
+    height: 50px;
+    min-width: 100px;
 }
 
 #select {
-    top: 270px;
-    right: 50px;
-    width: 180px;
+    top: 0;
+    left: 0;
+    width: 100%;
     font-size: 23px;
     padding: 0 15px;
     overflow: hidden;
 }
 
 #other {
-    top: 270px;
-    right: 50px;
-    width: 180px;
+    top: 0;
+    right: 0;
+    width: 100%;
     font-size: 23px;
     display: none;
 }
 
 #selectBack {
     position: absolute;
-    top: 285px;
-    right: 18px;
+    top: 15px;
+    right: 5%;
     width: 20px;
     height: 20px;
     background-color: white;
@@ -150,22 +187,21 @@ body {
     background-position: center;
     background-size: 12px 12px;
     background-repeat: no-repeat;
-    border-radius: 4px;
     cursor: pointer;
     display: none;
 }
 
 #line {
-    width: 600px;
+    width: 100%;
     height: 2px;
     position: absolute;
-    top: 345px;
+    top: 340px;
     background-color: rgb(255, 255, 255, .5);
 }
 
 #busines {
     position: absolute;
-    top: 355px;
+    top: 350px;
     left: 30%;
     text-decoration: none;
     color: #0DB9A1;
@@ -173,7 +209,110 @@ body {
 }
 
 #button5 {
-    top: 470px;
-    left: 41%;
+    top: 400px;
+    left: 35%;
     background-color: #0DB9A1;
+}
+
+@media screen and (max-width: 960px) {
+    #container2 {
+        margin: 0 30%;
+        height: 560px;
+    }
+
+    footer {
+        bottom: -70px;
+    }
+
+    body {
+        background-image: url('../assets/background/fondo01.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    #regform {
+        height: 480px;
+    }
+
+    #button5 {
+        top: 500px;
+        left: 28%;
+    }
+
+    #busines {
+        top: 450px;
+        left: 23%;
+    }
+
+    #line {
+        top: 440px;
+    }
+
+    #welcome {
+        left: 28%;
+    }
+
+    #photo {
+        right: 0;
+        left: 8%;
+        height: 120px;
+    }
+
+    #ubication {
+        right: 0;
+        left: 8%;
+        top: 195px;
+    }
+
+    #age {
+        top: 70px;
+        left: 61.5%;
+        min-width: 100px;
+    }
+
+    #weight {
+        top: 130px;
+        left: 61.5%;
+    }
+
+    #selectDiv {
+        top: 190px;
+        right: 0;
+        left: 61.5%;
+    }
+
+    #input6 {
+        top: 255px;
+        width: 84%;
+    }
+
+    #input7 {
+        top: 312px;
+        width: 84%;
+        display: inline;
+    }
+
+    #chipDiv {
+        top: 368px;
+        width: 84%;
+    }
+}
+
+@media screen and (max-width:649px) {
+    #container2 {
+        top: 150px;
+        left: 10%;
+        margin: 0;
+        height: 560px;
+        width: 80%;
+    }
+
+    footer {
+        bottom: 0;
+    }
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
 }
