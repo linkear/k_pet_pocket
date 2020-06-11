@@ -15,6 +15,7 @@ checkbox.addEventListener('click', () => {
 
 });
 
+
 /*-----Select-regist2-----*/
 var select = document.getElementById('select')
 var newInput = document.getElementById('other')
