@@ -1,5 +1,5 @@
 
-## Investigación 
+## Investigación :dog:
 
 La investigación se realizó a personas que aman a los animales, muchas de ellas dicen que si bien hay sitios en internet en favor de ellos, no hay una plataforma en la cual puedan interactuar entre si, ya sea publicando fotos, recomendaciones, articulos en venta, etc.
 
@@ -8,16 +8,28 @@ Por la cuál se va a crear una **Red Social** para nuestros amigos caninos de cu
 La Red Social constara con los siguientes modulos:
 
 * Tienda Pet
-* Adopción
-* Veterinaria
+* Adopción 
+* Veterinaria 
 
 **Tienda Pet** servirá para que las personas puedan poner a la venta sus productos que esten relacionados con nuestras mascotas.
 
-### Wireframes
+### Wireframes (Balsamiq)
 
+![Login](wireframes/Login.png)
 
+![Registro](wireframes/Registro.png)
 
-### Mockups
+![HomeTienda](wireframes/Home-Tienda.png)
+
+![DetalleProducto](wireframes/InformaciónArticulo-Tienda.png)
+
+![MisProductos](wireframes/MisArtículos-Tienda.png)
+
+![CrearProducto](wireframes/NuevoProducto-Tienda.png)
+
+![ActualizarProducto](wireframes/ActualizarProducto-Tienda.png)
+
+### Mockups (Adobe xd)
 
 ![Login](Mockups/Login.png)
 
