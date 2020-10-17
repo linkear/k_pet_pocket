@@ -1,0 +1,11 @@
+#icono_camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#icono_camera img {
+    height: 70px;
+    margin: 37px;
+}
