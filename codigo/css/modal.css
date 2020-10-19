@@ -6,6 +6,7 @@
 }
 
 #icono_camera img {
-    height: 70px;
-    margin: 37px;
+    width: 100%;
+    height: 23vh;
+
 }
