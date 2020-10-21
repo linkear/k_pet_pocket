@@ -1,0 +1,38 @@
+#sidebar-container {
+    min-height: 100vh;
+}
+  
+#sidebar-container .logo{
+    padding: 0.565rem 1.25rem;
+}
+  
+#sidebar-container .menu {
+    width: 12rem;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.menu a:hover {
+    background:#C0C0C0;
+}
+
+.menu i {
+    font-size: 20px;
+}
+
+#sidebar-container center img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid white;
+  }
+
+.nombre_perfil {
+    padding: 15px;
+}
+
+.bck_perfil {
+    margin: 25px ;
+    border-radius: 15px;
+}

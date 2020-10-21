@@ -1,0 +1,75 @@
+@import url(sidebar.css);
+@import url(navbar.css);
+@import url(registro.css);
+@import url(banner.css);
+@import url(modal.css);
+@import url(img-productos.css);
+
+:root {
+    --primary: #E0E3E5;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: black
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: var(--black);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-primary { background-color: var(--primary) !important; }
+
+.bg-light { background-color: var(--light) !important; }
+
+.bg-grey { background-color: var(--grey) !important; }
+
+.bg-mix { background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0); }
+
+.btn-primary {
+    border: 0;
+}
+
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+/*.btn-search {
+    right: 0;
+}*/
+
+#cambio_icono::after {
+    display: none;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+.btn-sinborde:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.validar_error {
+    border: 1px solid #C86C6C;
+}
+
+  
+@media (max-width: 768px) {
+    #sidebar-container {
+      display: none;
+    }
+    .stat {
+        border: 0;
+    }
+  }
+  
