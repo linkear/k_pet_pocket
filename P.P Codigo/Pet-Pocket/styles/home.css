@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+iframe {
+    nav-up: root;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#menu {
+    width: 100%;
+    height: 650px;
+    border-style: none;
+    position: fixed;
+ 
+    
+}
+
+#noticias {
+  position: fixed;
+   
+  top: 60px;
+  height: calc(90% - 0%);
+  right: 2px;
+  border-style: none;
+  
+}
+
+
+#card1 {
+    width: 550px;
+    border-radius: 15px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+    height: 115px;
+    
+     
+    
+}
+
+
+#post {
+    position: relative;
+    top: 10px;
+    width: calc(100% - 0%);
+    height: 40px;
+    background-color: #E7E5E5;
+    border-radius: 15px;
+    
+
+}
+
+#enPost {
+    position: relative;
+    top: -6px;
+    left: 45px;
+    color:#7E7E7E ;
+    
+}
+
+#coment {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    color:  #C0BFBF;
+}
+
+#card2 {
+    width: 550px;
+    border-radius: 15px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    height: 415px;
+    
+}
+
+#imgCard {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#nameUser {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    color: #232323;
+    font-weight: 600;
+}
+
+
+
+ 
+.comentUser {
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: large;
+}
+
+
+
+#imgPost {
+    position: relative;
+    border-radius: 15px;
+    
+    top: 30px;
+    height: 250px;
+    width: 480px
+
+}
+
+.footer {
+    position: relative;
+    top: 30px;
+    margin: 5px;
+    padding: 5px;
+    left: 50px;
+    
+}
+
+.footer  i {
+    color: #232323;
+}
+
+#itm {
+    color: #232323;
+}
+
+.card a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.form-group {
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 1090px){
+   
+    #noticias{
+        display: none;
+    }
+    
+}

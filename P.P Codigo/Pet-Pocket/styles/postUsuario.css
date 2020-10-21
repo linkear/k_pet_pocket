@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#menu {
+    width: 100%;
+    height: 650px;
+    border-style: none;
+    position: fixed;
+ 
+    
+}
+
+
+.tituloOf {
+    position: relative;
+    top: 100px;
+}
+
+#cerrar {
+    position: relative;
+    top: -40px;
+    margin-left: 120%;
+    text-decoration: none;
+    color: #232323;
+    font-size: x-large;
+
+}
+
+#selImg {
+    position: relative;
+    top: 130px;
+    border-style: none;
+    right: 50px;
+
+}
+
+
+#fondo {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+   
+}
+
+#card2 {
+    width: 530px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+    top: 130px;
+    height: 400px;
+    background-color: #C1BFBF;
+    border-style: none;
+    
+}
+
+.button {
+    position: relative;
+    left: 125px;
+}
+
+
+#imgCard {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#nameUser {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    color: #232323;
+    font-weight: 600;
+}
+
+
+
+ 
+.comentUser {
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-size: large;
+}
+
+
+
+
+
+.footer {
+    position: relative;
+    top: 30px;
+    margin: 5px;
+    padding: 5px;
+    left: 50px;
+    
+}
+
+.footer  i {
+    color: #232323;
+}
+
+#itm {
+    color: #232323;
+}
+
+.card a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.coments {
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    padding: 2px;
+    width: 450px;
+    left: 25px;
+    border-radius: 15px;
+    
+}
+
+#coment {
+    border-radius: 15px;
+}
+
+.form-control {
+    border-radius: 15px;
+    background-color: #C1BFBF;
+   
+}
+
+.btn  {
+    border-radius: 15px;
+    border-style: none;
+    background-color: #C1BFBF;
+}
+
+.input-group {
+    position: relative;
+    top: 10px;
+    width: 400px;
+    left: 20px;
+}
+
+#user1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+}
+
+#post {
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    top: -15px;
+    width: 320px;
+
+}
+
+#user1Com{
+    top: 10px;
+    position: relative;
+}
+
+#nameUser1 {
+    color: #232323;
+    font-weight: 600;
+    padding: 0 20px;
+ 
+    position: relative;
+}
+
+.button2 {
+    position: relative;
+    padding: 10px;
+    left: 160px;
+}
