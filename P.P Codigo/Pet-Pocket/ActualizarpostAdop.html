@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     
     <link rel="stylesheet" href="styles/menu.css">
-    <link rel="stylesheet" href="styles/postUsuario.css">
+    <link rel="stylesheet" href="styles/postAdop.css">
     <title>Document</title>
 </head>
 <body>
@@ -88,8 +88,8 @@
             <div class="col-2"></div>
             <div class="col-8">
                 <div class="tituloOf">
-                    <h2>Publicar</h2>
-                   <a id="cerrar" href="home.html"><i class="fas fa-times fa-lg"></i></a> 
+                    <h2>Actualizar Mascota </h2>
+                   <a id="cerrar" href="homeAdop.html"><i class="fas fa-times fa-lg"></i></a> 
                 </div>
                 
                 <div class="row">
@@ -107,38 +107,55 @@
                       
                             <div class="card" id="card2">
                                 <div class="header">
-                                    <img src="img/1.jpg" id="imgCard" alt="">
-                                    <a href="perfil.html" id="nameUser" >Karla Rojas</a>
-                                      
+                                    <img src="img/userA.jpg" id="imgCard" alt="">
+                                    <a href="" id="nameUser" >Adop a Pet</a>
 
-                                    <br>
-                                    <div class="comentUser">
-                                        <label for="">Cuentanos que tal tu día</label>
-                                    </div>
-                                  
-                                 
-    
                                 </div>
     
                             
 
                                 <div class="coments">
-                                    <div class="card" id="coment">
-                                        <form action="">
-                                         <div class="form-group">
-                                                
-                                            <div class="input-group ">
-                                                <input type="text" class="form-control" placeholder="Comenta Aquí"  aria-describedby="button-addon2">
-                                               
-                                              </div>
+                                  <div class="row">
+                                    <div class="col-sm-6" >
+                                      <label > Nombre de la Mascota </label>
+                                      <input type="text" placeholder="Ej: 'Max' o deje en blanco "  class="form-control"></input>
+                                    </div>
+                                    <div class="col-sm-6" >
+                                     <label > Tipo de Mascota </label>
+                                      <select name="" id="" class="form-control" placeholder="Elija un tipo" >
+                                        <option value="">Elija un Tipo</option>
+                                        <option value="">Gato</option>
+                                        <option value="">Perro</option>
+                                        <option value="">Otros</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                    <div class="col-sm-6" >
+                                      <label > Raza de la Mascota </label>
+                                      <input type="text" placeholder="Ej: Pitbull"  class="form-control"></input>
+                                    </div>
+                                    <div class="col-sm-6" >
+                                     <label > Numero de Contacto </label>
+                                      <input type="text" placeholder="098*******" class="form-control"></input>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <div class="row" >
+                                    <div class="col-sm-12">
+                                      <label > Descripcion General de la Mascota </label>
+                                      <textarea class="form-control" placeholder="Ej: Vacunas al día o algun problema que tenga la mascota"  ></textarea>
+                                    </div>
+                                  </div>
 
-                                           </div>
+                                        <form action="">  
                                            <div class="button2">
                                             <button type="button" class="btn btn-outline-dark">Publicar</button>
                                            </div>
                                         </form>
                                         
-                                     </div>
+                                   
 
                                      
                                 </div>
