@@ -204,13 +204,27 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6 ml-auto">
-                                        <div class="form-group border" id="icono_camera">
-                                            <input type="file" class="d-none" id="" >
-                                            <img src="../assets/no-image.png" class=""  alt="" >
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="" placeholder="Contacto">
-                                        </div>
+                                            <div class="row">
+                                                <div class="col-6" id="no-image">
+                                                    <img src="../assets/no-image.png" id="changeImage1" alt="">
+                                                </div>
+                                                <div class="col-6" id="no-image">
+                                                    <img src="../assets/no-image.png" id="changeImage2" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-6" id="no-image">
+                                                    <img src="../assets/no-image.png" id="changeImage3" alt="">
+                                                </div>
+                                                <div class="col-6" id="no-image">
+                                                    <img src="../assets/no-image.png" id="changeImage4" alt="">
+                                                </div>
+                                            </div>
+                                            <label class="btn btn-info w-100 align-self-center mt-3" for="uploadImage"><i class="fas fa-cloud-upload-alt mr-2"></i>Subir Imágen
+                                                <input type="file" id="uploadImage" onchange="imagePreview()">
+                                            </label>
+                                   
+                                        <!--<button class="btn btn-info w-100 align-self-center">Imágen</button>-->
                                     </div>
                                     <div class="col-md-6 ml-auto">
                                         <div class="form-group">
@@ -218,6 +232,7 @@
                                         </div>
                                         <div class="form-group">
                                             <select class="form-control" id="">
+                                                <option>Seleccione</option>
                                                 <option>Juguetes</option>
                                                 <option>Ropa</option>
                                                 <option>Comida</option>
@@ -230,7 +245,11 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control" id="" placeholder="Ubicación">
                                         </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="" placeholder="Contacto">
+                                        </div>
                                     </div>
+                                   
                                     <div class="col-md-12 ml-auto">
                                         <div class="form-group">
                                             <textarea class="form-control" id="" placeholder="Descripción"></textarea>
@@ -322,8 +341,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
-        integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script src="../js/image.js"></script>
 </body>
 
 </html>
