@@ -32,7 +32,7 @@ body {
 #cerrar {
     position: relative;
     top: -40px;
-    margin-left: 120%;
+    margin-left: 100%;
     text-decoration: none;
     color: #232323;
     font-size: x-large;
@@ -43,6 +43,7 @@ body {
     position: relative;
     top: 100px;
     border-style: none;
+    
 
 }
 
@@ -52,17 +53,20 @@ body {
     height: 460px;
     
     border-radius: 20px;
+ 
    
 }
 
 #card2 {
+   
     border-radius: 15px;
     position: relative;
-    width: 550px;
+    width: 500px;
     top: 100px;
    
     background-color: #C1BFBF;
     border-style: none;
+    
 }
 
 #imgCard {
@@ -84,102 +88,64 @@ body {
 
 
 
- 
-.comentUser {
-    position: relative;
-    top: 30px;
-    left: 60px;
-    font-size: large;
-}
-
-
-
-
-
-.footer {
-    position: relative;
-    top: 30px;
-    margin: 5px;
-    padding: 5px;
-    left: 50px;
-    
-}
-
-.footer  i {
-    color: #232323;
-}
-
-#itm {
-    color: #232323;
-}
-
-.card a{
-    list-style: none;
-    text-decoration: none;
-    
-}
-
 .coments {
     position: relative;
-    top: 50px;
-    margin: 10px;
-    padding: 0 40px;
-    
-    left: 5px;
-    border-radius: 15px;
-    
+    top: 20px;
+    margin: 5px;
+    padding: 5px;
+    left: 15px;
 }
 
-#coment {
-    border-radius: 15px;
-}
-
-.form-control {
-    border-radius: 15px;
-    background-color: #C1BFBF;
-   
-}
-
-.btn  {
-    border-radius: 15px;
-    border-style: none;
-    background-color: #C1BFBF;
-}
-
-.input-group {
-    position: relative;
-    top: 10px;
-    padding: 0 40px;
-    left: 5px;
-}
-
-#user1 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    position: relative;
-    top: 30px;
-}
-
-#post {
-    border-radius: 20px;
-    position: relative;
-    left: 80px;
-    top: -15px;
-    width: 320px;
-
-}
-
-#user1Com{
-    top: 10px;
-    position: relative;
-}
-
-#nameUser1 {
+label {
+    text-decoration: none;
+    font-size: 15px;
     color: #232323;
     font-weight: 600;
-    padding: 0 20px;
+    padding: 0;
+    margin: 0;
  
-    position: relative;
 }
 
+p{
+   
+    margin: 0;
+    padding: 0;
+
+}
+
+.nameM {
+    position: relative;
+    top: 5px;
+    
+}
+
+#contacto {
+    position: relative;
+    top: 2px;
+}
+
+#footer {
+    position: relative;
+
+    padding: 5px;
+    left: 30px;
+    
+}
+
+#footer   i {
+    color: #232323;
+    text-decoration: none;
+}
+
+
+#footer   a {
+    color: #232323;
+    text-decoration: none;
+}
+
+.btn {
+    width: 400px;
+    position: relative;
+    margin: 5px;
+    border-radius: 15px;
+}

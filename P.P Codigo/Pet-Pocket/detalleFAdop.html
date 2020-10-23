@@ -7,7 +7,7 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="styles/detalleFUsuario.css">
+    <link rel="stylesheet" href="styles/detalleFAdop.css">
     <link rel="stylesheet" href="styles/dropdown.css">
     <link rel="stylesheet" href="styles/menu.css">
     <title>Document</title>
@@ -86,106 +86,114 @@
     <div class="container">
         <div class="row">
            
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
                 <div class="tituloOf">
                     <h2>Descripción</h2>
                    <a id="cerrar" href="home.html"><i class="fas fa-times fa-lg"></i></a> 
                 </div>
                 
-                <div class="row">
+                <div class="flex-box">
+                  <div class="row">
                     
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-lg-6">
                         <div class="card" id="selImg">
-                           <img id="fondo" src="img/2.jpg" alt="">
+                           <img id="fondo" src="img/adp.jpg" alt="">
                            
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-lg-6">
                       
                             <div class="card" id="card2">
                                 <div class="header">
-                                    <img src="img/1.jpg" id="imgCard" alt="">
-                                    <a href="perfil.html" id="nameUser" >Karla Rojas</a>
+                                    <img src="img/userA.jpg" id="imgCard" alt="">
+                                    <a href="" id="nameUser" >Adop a Pet</a>
                                 
                                     <div class="dropdown" style="float:left;">
                                         <i class="fas fa-ellipsis-h" class="dropbtn"></i>
                                                                      
                                          <div class="dropdown-content" style="left:0;">
                                            <a href="#"><i class="fas fa-trash-alt"></i>  Eliminar</a>
-                                           <a href="actualizarPostUsuario.html"><i class="fas fa-pencil"></i>  Actualizar</a>
+                                           <a href="ActualizarpostAdop.html"><i class="fas fa-pencil"></i>  Actualizar</a>
                                            <a href="#"><i class="fas fa-times"></i>  Cerrar</a>
                                          </div>
                                    </div>
+                                </div>
+    
 
-                                    <br>
-                                    <div class="comentUser">
-                                        <label for="">Que lindo perrito</label>
+                                <div class="coments">
+                                  <div class="row">
+                                    <div class="col-sm-12" >
+                                      <label  > Nombre de la Mascota </label>
+                                        <p class="nameM">Lindo Cachorrito Busca Hogar</p>
                                     </div>
                                   
-                                    <div class="footer">
-                                    
-                                      <div class="row">
-                                          <div class="col-3">
-                                              <a href="" id="itm" ><i class="fas fa-heart"></i> Me gusta </a>
-                                          </div>
-                                          <div class="col-3">
-                                              <a href="" id="itm" ><i class="fas fa-comment"></i> Comentar </a>
-                                          </div>
-                                          <div class="col-3">
-                                              <a href="" id="itm" ><i class="fas fa-share"></i> Compartir</a>
-                                          </div>
-                                      </div>
                                   </div>
-
-                                    <div class="coments">
-                                      <div class="card" id="coment">
-                                          <form action="">
-                                           <div class="form-group">
-                                                  
-                                              <div class="input-group ">
-                                                  <input type="text" class="form-control" placeholder="Comenta Aquí"  aria-describedby="button-addon2">
-                                                  <div class="input-group-append">
-                                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-paper-plane"></i></button>
-                                                  </div>
-                                                </div>
-                                              
-                                                <div class="users">
-                                                  <div class="col-6">
-                                                      <img  id="user1" src="img/user1.jpg" alt="">
-                                                      <div class="card" id="post">
-                                                         <p href="" id="user1Com" ><a id="nameUser1" href="">Diego Paz </a>  Que lindo Cachorro</p>
-                                                      </div>
-                                                  </div>
-                                                  
-                                                  <div class="users">
-                                                    <div class="col-6">
-                                                        <img  id="user1" src="img/user2.jpg" alt="">
-                                                        <div class="card" id="post">
-                                                           <p href="" id="user1Com" ><a id="nameUser1" href="">Luis Mena </a> Muy lindo</p>
-                                                        </div>
-                                                    </div>
-                                                  
-                                                  <div class="col-6">
-                                                      
-                                                  </div>
-                                                </div>
-  
-                                             </div>
-                                          </form>
-                                       </div>
+                                  <br>
+                                  <div class="row">
+                                    <div class="col-sm-6" >
+                                      <label > Tipo de Mascota </label>
+                                      <p class="nameM">Perro</p>
+                                     </div>
+                                    <div class="col-sm-6" >
+                                      <label > Raza de la Mascota </label>
+                                      <p class="nameM">Castellano</p>
+                                    </div>
+                                 
                                   </div>
-    
+                                  <br>
+                                  
+                                  <div class="row">
+                                    <div class="col-sm-6" >
+                                      <label > Numero de Contacto </label>
+                                     
+                                     </div>
+                                     <div class="col-sm-6" >  
+                                        <p id="contacto">09********</p>
+                                     </div>
+                                  </div>
+                                  
+                                   <br>
+                                  <div class="row" >
+                                    <div class="col-sm-12">
+                                      <label > Descripcion General de la Mascota </label>
+                                          <p>
+                                            El Cachorrito tiene 1 mes de nacido, esta con todas sus vacuanas al día
+                                            
+                                          </p>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <br>
+                                  <div class="row" id="footer">
+                                    <div class="col-lg-6 ">
+                                        <a href="" id="itm" ><i class="fas fa-heart"></i> Me gusta </a>
+                                    </div>                                       
+                                    <div class="col-lg-6 ">
+                                        <a href="" id="itm" ><i class="fas fa-share"></i> Compartir</a>
+                                    </div>
+                                   
                                 </div>
                                 <br>
-                                <br>
+                                <div class="col-lg-12  ">
+                                  <div class="text-center">
+                                    <button type="button" class="btn btn-outline-dark btn-lg btn-block" >Adoptar
+                                      
+                                    </button>  
+                                  </div>                        
+                              </div>
+                                     <br>
+                            
+                                </div>
 
                             </div>
                         
                     </div>
                 </div>
+                </div>
+              
             </div>
-            
+          
         </div>
     </div>
 </body>
