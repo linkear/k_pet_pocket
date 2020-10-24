@@ -1,0 +1,25 @@
+#no-image {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+#no-image img{
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: 15vh;
+}
+
+/*#icono_camera img {
+    width: 100%;
+    height: 32vh;
+
+}*/
+
+label input[type="file"]{
+    display: none;
+}
+

@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+#imgPerfil {
+    position: relative;
+    top: 40px;
+    
+    border-style: none;
+}
+
+#infoUser {
+    position: relative;
+    top: 40px;
+    border-radius: 15px;
+    border-style: none;
+
+    
+}
+
+
+#picture {
+    height: 240px;
+    border-radius: 15px;
+}
+
+#label {
+    position: relative;
+    left: 25px;
+    top: 5px;
+    color: #7A7979 ;
+    font-weight: 600;
+
+}
+
+#usr {
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#itmuser {
+    position: relative;
+    right: 5px;
+    color: #474747 ;
+}
+
+hr {
+    position: relative;
+    right: 80px;
+    top: 5px;
+}
+
+
+.titulo {
+    position: relative;
+    top: 30px;
+    left: 110px;
+    width: 650px;
+    text-align: center;
+}
+
+#album1 {
+    position: relative;
+    top: 30px;
+    
+    border-style: none;
+}
+
+#album2 {
+    position: relative;
+    top: 30px;
+    
+    border-style: none;
+}
+
+#album3 {
+    position: relative;
+    top: 30px;
+   
+    border-style: none;
+}
+
+#pictures {
+    height: 190px;
+    border-radius: 15px;
+}
+
+#itm {
+    text-decoration: none;
+    color: #474747;
+    position: relative;
+    left: 5px;
+}
+

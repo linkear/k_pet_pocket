@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    height: 56px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.tituloOf {
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+
+#cerrar {
+    position: relative;
+    top: -40px;
+    margin-left: 120%;
+    text-decoration: none;
+    color: #232323;
+    font-size: x-large;
+
+}
+
+#tl {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#selImg {
+    position: relative;
+    top: 40px;    
+    border-style: none;
+    background-color: #f1f1f1;
+
+}
+
+#fondo {
+    position: relative;
+    height: 460px;
+    top: 10px;
+    right: 80px;
+    border-radius: 20px;
+   
+}
+
+#card2 {
+    border-radius: 15px;
+    position: relative;
+    width: 550px;
+    top: 60px;
+   right: 80px;
+    background-color: #C1BFBF;
+    border-style: none;
+}
+
+#imgCard {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#nameUser {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    color: #232323;
+    font-weight: 600;
+}
+
+
+
+ 
+.comentUser {
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-size: large;
+}
+
+
+
+
+
+.footer {
+    position: relative;
+    top: 30px;
+    margin: 5px;
+    padding: 5px;
+    left: 50px;
+    
+}
+
+.footer  i {
+    color: #232323;
+}
+
+#itm {
+    color: #232323;
+}
+
+.card a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.coments {
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    padding: 0 40px;
+    
+    left: 5px;
+    border-radius: 15px;
+    
+}
+
+#coment {
+    border-radius: 15px;
+}
+
+.form-control {
+    border-radius: 15px;
+    background-color: #C1BFBF;
+   
+}
+
+.btn  {
+    border-radius: 15px;
+    border-style: none;
+    background-color: #C1BFBF;
+}
+
+.input-group {
+    position: relative;
+    top: 10px;
+    padding: 0 40px;
+    left: 5px;
+}
+
+#user1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+}
+
+#post {
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    top: -15px;
+    width: 320px;
+
+}
+
+#user1Com{
+    top: 10px;
+    position: relative;
+}
+
+#nameUser1 {
+    color: #232323;
+    font-weight: 600;
+    padding: 0 20px;
+ 
+    position: relative;
+}
+
