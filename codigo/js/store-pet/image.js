@@ -10,7 +10,7 @@ function imagePreview () {
     let imagen3 = document.getElementById("changeImage3");
     let imagen4 = document.getElementById("changeImage4");
 
-    var reader = new FileReader();
+    let reader = new FileReader();
 
     reader.onload = function () {
 
