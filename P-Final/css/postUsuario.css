@@ -144,6 +144,16 @@ body {
     
 }
 
+.coments2 {
+    position: relative;
+    top: 30px;
+    margin: 10px;
+    padding: 2px;
+    width: 450px;
+
+    border-radius: 15px; 
+}
+
 #coment {
     border-radius: 15px;
 }
@@ -153,8 +163,6 @@ body {
     background-color: #C1BFBF;
    
 }
-
-
 
 .input-group {
     position: relative;
@@ -193,8 +201,3 @@ body {
     position: relative;
 }
 
-.button2 {
-    position: relative;
-    padding: 10px;
-    left: 160px;
-}

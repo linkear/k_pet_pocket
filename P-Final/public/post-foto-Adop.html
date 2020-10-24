@@ -85,96 +85,102 @@
       <!-- Fin Navbar -->
 
       <div id="content" class="bg-grey w-100">
-     
-        <div class="row">
-           
-          <div class="col-2"></div>
-          <div class="col-8">
-              <div class="tituloOf">
-                  <h2>Publicar</h2>
-                 <a id="cerrar" href="home-adopcion.html"><i class="fas fa-times fa-lg"></i></a> 
-              </div>
-              
+        <section class="bg-light py-3">
+          <div class="container">
               <div class="row">
-                  
-                  <div class="col-sm-6" id="ft">
-                      <div class="card" id="selImg">
-                      
-                          <img id="fondo" src="../assets/img/fondo.png" alt="" id="changeImage1" >
-
-                         <br>
-                        
-                          <label id="file" class="btn btn-outline-secondary w-100 align-self-center mt-3" for="uploadImage"></i>Seleccionar Foto
-                            <input type="file" id="uploadImage" >
-                        </label>
-
-                         
-                      </div>
+                  <div class="col-lg-9 col-md-8">
+                      <h3 class="mt-3 font-weight-bold">Hacer una Publicación</h3>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-lg-3 col-md-4 d-flex">
+                    <div class="align-self-end mb-1">
+                      <a href="../public/home-principal.html"><button class="btn btn-info w-100 align-self-center categoryItem"><i class="fas fa-times mr-2"></i>Cerrar</button></a>
+                    </div>
                     
-                    <div class="card" id="card2">
-                      <div class="header">
-                          <img src="../assets/img/userA.jpg" id="imgCard" alt="">
-                          <a href="" id="nameUser" >Adop a Pet</a>
-
-                      </div>
-
-                  
-
-                      <div class="coments">
-                        <div class="row">
-                          <div class="col-sm-6" >
-                            <label id="label"> Nombre de la Mascota </label>
-                            <input type="text" placeholder="Ej: 'Max' o deje en blanco "  class="form-control"></input>
-                          </div>
-                          <div class="col-sm-6" >
-                           <label id="label" > Tipo de Mascota </label>
-                            <select name="" id="" class="form-control" placeholder="Elija un tipo" >
-                              <option value="">Elija un Tipo</option>
-                              <option value="">Gato</option>
-                              <option value="">Perro</option>
-                              <option value="">Otros</option>
-                            </select>
-                          </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                          <div class="col-sm-6" >
-                            <label id="label" > Raza de la Mascota </label>
-                            <input type="text" placeholder="Ej: Pitbull"  class="form-control"></input>
-                          </div>
-                          <div class="col-sm-6" >
-                           <label id="label" > Numero de Contacto </label>
-                            <input type="text" placeholder="098*******" class="form-control"></input>
-                          </div>
-                        </div>
-                        <br>
-                        <div class="row" >
-                          <div class="col-sm-12">
-                            <label id="label" > Descripcion General de la Mascota </label>
-                            <textarea class="form-control" placeholder="Ej: Vacunas al día o algun problema que tenga la mascota"  ></textarea>
-                          </div>
-                        </div>
-
-                              <form action="">  
-                                 <div class="button2">
-                                  <button type="button" class="btn btn-outline-dark">Publicar</button>
-                                 </div>
-                              </form>
-                              
-                         
-
-                           
-                      </div>
-
-                  </div>
-                      
+    
+                    <!--<button class="btn btn-primary w-100 align-self-center">Descargar reporte</button>-->
                   </div>
               </div>
           </div>
-          
-      </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 my-4">
+                <div class="card rounded-0">
+                  <div class="card-body">
+                    <img id="detalle-img-2" src="../assets/img/fondo.png" alt="" >
+                    <div class="button">
+                      <label class="btn btn-outline-secondary w-100 align-self-center mt-3" for="uploadImage"></i>Seleccionar Foto
+                        <input type="file" id="uploadImage" >
+                      </label>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 my-4">
+                <div class="card rounded-0">
+                  <div class="card-body">
+                          <div class="header">
+                              <img src="../assets/img/userA.jpg" id="imgCard" alt="">
+                              <a href="perfil.html" id="nameUser" >Adop a Pet</a>
+                              <br>                            
+                              <div class="coments2">
+                                 <div class="card" id="coment">
+                                    <form action="" class="">
+                                        <div class="coments">
+                                          <div class="row">
+                                            <div class="col-sm-6" >
+                                              <label id="label"> Nombre de la Mascota </label>
+                                              <input type="text" placeholder="Ej: 'Max' o deje en blanco "  class="form-control"></input>
+                                            </div>
+                                            <div class="col-sm-6" >
+                                             <label id="label" > Tipo de Mascota </label>
+                                              <select name="" id="" class="form-control" placeholder="Elija un tipo" >
+                                                <option value="">Elija un Tipo</option>
+                                                <option value="">Gato</option>
+                                                <option value="">Perro</option>
+                                                <option value="">Otros</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <br>
+                                          <div class="row">
+                                            <div class="col-sm-6" >
+                                              <label id="label" > Raza de la Mascota </label>
+                                              <input type="text" placeholder="Ej: Pitbull"  class="form-control"></input>
+                                            </div>
+                                            <div class="col-sm-6" >
+                                             <label id="label" > Numero de Contacto </label>
+                                              <input type="text" placeholder="098*******" class="form-control"></input>
+                                            </div>
+                                          </div>
+                                          <br>
+                                          <div class="row" >
+                                            <div class="col-sm-12">
+                                              <label id="label" > Descripcion General de la Mascota </label>
+                                              <textarea class="form-control" placeholder="Ej: Vacunas al día o algun problema que tenga la mascota"  ></textarea>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                          <div class="button2 mt-2">
+                                            <button type="button" class="btn btn-outline-dark">Publicar</button>
+                                          </div>
+                                    </form>
+                                 </div>
+                              </div>
+
+                          </div>
+                          <br>
+                          <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+     
+      
 
        
       </div>

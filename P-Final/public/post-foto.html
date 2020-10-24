@@ -12,7 +12,10 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/postUsuario.css">
+
+
+  <link rel="stylesheet" href="../css/detalleFUsuario.css">
+
 
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
@@ -72,7 +75,7 @@
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Mi perfil</a>
+                  <a class="dropdown-item" href="perfil.html"><i class="fas fa-user mr-2"></i>Mi perfil</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="../index.html"><i class="fas fa-sign-out-alt mr-2"></i>Cerrar
                     sesión</a>
@@ -85,79 +88,79 @@
       <!-- Fin Navbar -->
 
       <div id="content" class="bg-grey w-100">
-     
-        <div class="row">
-           
-          <div class="col-2"></div>
-          <div class="col-8">
-              <div class="tituloOf">
-                  <h2>Publicar</h2>
-                 <a id="cerrar" href="home-principal.html"><i class="fas fa-times fa-lg"></i></a> 
-              </div>
-              
+         <section class="bg-light py-3">
+          <div class="container">
               <div class="row">
-                  
-                  <div class="col-sm-6" id="ft">
-                      <div class="card" id="selImg">
-                      
-                          <img id="fondo" src="../assets/img/fondo.png" alt="" id="changeImage1" >
-
-                         <br>
-                         <div class="button">
-                          <label class="btn btn-outline-secondary w-100 align-self-center mt-3" for="uploadImage"></i>Seleccionar Foto
-                            <input type="file" id="uploadImage" >
-                        </label>
-
-                         </div>
-                      </div>
+                  <div class="col-lg-9 col-md-8">
+                      <h3 class="mt-3 font-weight-bold">Hacer una publicación</h3>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-lg-3 col-md-4 d-flex">
+                    <div class="align-self-end mb-1">
+                      <a href="../public/home-principal.html"><button class="btn btn-info w-100 align-self-center categoryItem"><i class="fas fa-times mr-2"></i>Cerrar</button></a>
+                    </div>
                     
-                          <div class="card" id="card2">
-                              <div class="header">
-                                  <img src="../assets/prfil.jpg" id="imgCard" alt="">
-                                  <a href="perfil.html" id="nameUser" >Juan Alvear</a>
-                                    
-
-                                  <br>
-                                  <div class="comentUser">
-                                      <label id="tl" for="">Cuentanos que tal tu día</label>
-                                  </div>
-                                
-                               
-  
-                              </div>
-  
-                          
-
-                              <div class="coments">
-                                  <div class="card" id="coment">
-                                      <form action="">
-                                       <div class="form-group">
-                                              
-                                          <div class="input-group ">
-                                              <input type="text" class="form-control" placeholder="Comenta Aquí"  aria-describedby="button-addon2">
-                                             
-                                            </div>
-
-                                         </div>
-                                         <div class="button2">
-                                          <button type="button" class="btn btn-outline-dark">Publicar</button>
-                                         </div>
-                                      </form>
-                                      
-                                   </div>
-
-                                   
-                              </div>
-  
-                          </div>
-                      
+    
+                    <!--<button class="btn btn-primary w-100 align-self-center">Descargar reporte</button>-->
                   </div>
               </div>
           </div>
-          
-      </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 my-4">
+                <div class="card rounded-0">
+                  <div class="card-body">
+                    <img id="detalle-img-2" src="../assets/img/fondo.png" alt="" >
+                    <div class="button">
+                      <label class="btn btn-outline-secondary w-100 align-self-center mt-3" for="uploadImage"></i>Seleccionar Foto
+                        <input type="file" id="uploadImage" >
+                      </label>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 my-4">
+                <div class="card rounded-0">
+                  <div class="card-body">
+                          <div class="header">
+                              <img src="../assets/prfil.jpg" id="imgCard" alt="">
+                              <a href="perfil.html" id="nameUser" >Juan Alvear</a>
+                              <br>
+                              <div class="comentUser">
+                                  <label id="tl" for="">Cuentanos que tal tu día</label>
+                              </div>
+                            
+                              <div class="coments2">
+                                 <div class="card" id="coment">
+                                    <form action="">
+                                       <div class="form-group">
+                                          <div class="input-group ">
+                                            <input type="text" class="form-control" placeholder="Comenta Aquí"  aria-describedby="button-addon2">
+                                            <div class="input-group-append">
+                                              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-paper-plane"></i></button>
+                                            </div>
+                                          </div>
+                                          <br>
+                                          <div class="bn mt-3">
+                                            <button type="button" class="btn btn-outline-secondary w-50 align-self-center">Publicar</button>
+                                           </div>
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+
+                          </div>
+                          <br>
+                          <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+     
+  
 
        
       </div>

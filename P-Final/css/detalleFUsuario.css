@@ -19,6 +19,17 @@ nav {
 }
 
 
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#frm{
+    position: relative;
+    top: 25px;
+    padding: 5px;
+}
+
 
 .tituloOf {
     position: relative;
@@ -50,13 +61,9 @@ nav {
 
 }
 
-#fondo {
+.fol {
     position: relative;
-    height: 460px;
-    top: 10px;
-    right: 80px;
-    border-radius: 20px;
-   
+    top: 20px;
 }
 
 #card2 {
@@ -92,7 +99,7 @@ nav {
 .comentUser {
     position: relative;
     top: 30px;
-    left: 60px;
+    left: 35px;
     font-size: large;
 }
 
@@ -101,16 +108,21 @@ nav {
 
 
 .footer {
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 140px;
     margin: 5px;
     padding: 5px;
-    left: 50px;
-    
+    left: 35px;
+    width: 550px;
 }
 
 .footer  i {
     color: #232323;
+}
+
+#footer {
+    position: relative;
+    left: 40px;
 }
 
 #itm {
@@ -125,13 +137,13 @@ nav {
 
 .coments {
     position: relative;
-    top: 50px;
+    top: 70px;
     margin: 10px;
     padding: 0 40px;
-    
-    left: 5px;
+    right: 2px;
     border-radius: 15px;
-    
+    margin-bottom: 35px;
+    border-style: none;
 }
 
 #coment {
@@ -168,9 +180,9 @@ nav {
 #post {
     border-radius: 20px;
     position: relative;
-    left: 80px;
+    left: 60px;
     top: -15px;
-    width: 320px;
+    width: 270px;
 
 }
 
@@ -185,5 +197,21 @@ nav {
     padding: 0 20px;
  
     position: relative;
+}
+
+#detalle-img {
+    width: 100%;
+    height: 67vh;
+}
+
+#detalle-img-2 {
+    width: 100%;
+    height: 55vh;
+}
+
+.bn {
+    position: relative;
+    left: 25%;
+    
 }
 

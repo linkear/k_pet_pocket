@@ -19,8 +19,9 @@ body {
 
 .search {
     position: fixed;
-    top: 80px;
+    top: 60px;
     right: 50px;
+    width: 315px;
 }
 
 .info {
@@ -32,7 +33,7 @@ body {
 
 #title1{
     position: relative;
-    left: 60px;
+    left: 90px;
     font-weight: 600;
 }
 h3 {
@@ -48,9 +49,9 @@ h5{
 
 #cardInfo {
     position: relative;
-    width: 220px;
-   right: 30px;
-   border-radius: 15px;
+    width: 315px;
+    right: 34px;
+    border-radius: 15px;
 }
 
 p{
@@ -66,38 +67,38 @@ p{
 #i {
     position: relative;
     top: 32px;
-    margin-left: 170px;
+    margin-left: 280px;
     
 }
 
 #title2 {
     position: fixed;
-    top: 320px;
-    margin-left: 55px;
+    top: 295px;
+    right: 145px;
     font-weight: 600;
 }
 
 .tienda {
     position: fixed;
-    top: 380px;
-    right: 40px;
+    top: 350px;
+    right: 90px;
 }
 
 .card1 {
-    width: 220px;
+    width: 250px;
    
 }
 
 .card2 {
     position: relative;
     top: -80px;
-    width: 220px;
+    width: 250px;
     border-style: none;
 }
 
 .infor{
     position: relative;
-    left: 115px;
+    left: 185px;
     height: 100px;
     width: 100px;
     top: -90px;

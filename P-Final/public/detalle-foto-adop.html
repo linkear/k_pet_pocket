@@ -12,7 +12,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/detalleFAdop.css">
+  <link rel="stylesheet" href="../css/detalleFUsuario.css">
   <link rel="stylesheet" href="../css/dropdown.css">
 
   <!-- Google fonts -->
@@ -65,111 +65,129 @@
       <!-- Fin Navbar -->
 
       <div id="content" class="bg-grey w-100">
-     
-        <div class="row">
-           
-          <div class="col-md-2"></div>
-          <div class="col-md-10">
-              <div class="tituloOf">
-                  <h2>Descripción</h2>
-                 <a id="cerrar" href="home-adopcion.html"><i class="fas fa-times fa-lg"></i></a> 
-              </div>
-              
-              <div class="flex-box">
+     <section class="bg-light py-3">
+        <div class="container">
+          <section class="bg-light py-3">
+            <div class="container">
                 <div class="row">
-                  
-                  <div class="col-sm-6 col-lg-6">
-                      <div class="card" id="selImg">
-                         <img id="fondo" src="../assets/img/adp.jpg" alt="">
-                         
+                    <div class="col-lg-9 col-md-8">
+                        <h3 class="mt-3 font-weight-bold">Descripción</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-4 d-flex">
+                      <div class="align-self-end mb-1">
+                        <a href="../public/home-adopcion.html"><button class="btn btn-info w-100 align-self-center categoryItem"><i class="fas fa-times mr-2"></i>Cerrar</button></a>
                       </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-6">
-                    
-                          <div class="card" id="card2">
-                              <div class="header">
-                                  <img src="../assets/img/userA.jpg" id="imgCard" alt="">
-                                  <a href="" id="nameUser" >Adop a Pet</a>
-                              
-                                  <div class="dropdown" style="float:left;">
-                                      <i class="fas fa-ellipsis-h" class="dropbtn"></i>
-                                                                   
-                                       <div class="dropdown-content" style="left:0;">
-                                         <a href="#"><i class="fas fa-trash-alt"></i>  Eliminar</a>
-                                         <a href="post-foto-Adop-Update.html"><i class="fas fa-pen"></i>  Actualizar</a>
-                                         <a href="#"><i class="fas fa-times"></i>  Cerrar</a>
-                                       </div>
-                                 </div>
-                              </div>
-  
+                      
+      
+                      <!--<button class="btn btn-primary w-100 align-self-center">Descargar reporte</button>-->
+                    </div>
+                </div>
+            </div>
+          </section>
+        </div>
+     </section>
 
-                              <div class="coments">
-                                <div class="row">
-                                  <div class="col-sm-12" >
-                                    <label  > Nombre de la Mascota </label>
-                                      <p class="nameM">Lindo Cachorrito Busca Hogar</p>
-                                  </div>
-                                
-                                </div>
-                                <br>
-                                <div class="row">
-                                  <div class="col-sm-6" >
-                                    <label > Tipo de Mascota </label>
-                                    <p class="nameM">Perro</p>
-                                   </div>
-                                  <div class="col-sm-6" >
-                                    <label > Raza de la Mascota </label>
-                                    <p class="nameM">Castellano</p>
-                                  </div>
-                               
-                                </div>
-                                <br>
-                                
-                                <div class="row">
-                                  <div class="col-sm-6" >
-                                    <label > Numero de Contacto </label>
-                                   
-                                   </div>
-                                   <div class="col-sm-6" >  
-                                      <p id="contacto">09********</p>
-                                   </div>
-                                </div>
-                                
-                                 <br>
-                                <div class="row" >
-                                  <div class="col-sm-12">
-                                    <label > Descripcion General de la Mascota </label>
-                                        <p>
-                                          El Cachorrito tiene 1 mes de nacido, esta con todas sus vacuanas al día
-                                          
-                                        </p>
-                                  </div>
-                                </div>
-                                <br>
-                                <br>
-                                <div class="row" id="footer">
-                                  <div class="col-lg-6 ">
-                                      <a href="" id="itm" ><i class="fas fa-heart"></i> Me gusta </a>
-                                  </div>                                       
-                                  <div class="col-lg-6 ">
-                                      <a href="" id="itm" ><i class="fas fa-share"></i> Compartir</a>
-                                  </div>
-                                 
-                              </div>
-                              <br>
-                              <div class="col-lg-12  ">
-                                
-                                    <button  data-toggle="modal" data-target="#ventanaModal" class="btn btn-outline-dark btn-lg btn-block">  Adoptar </button>
-                                                  
-                            </div>
-                                   <br>
-                              </div>
-                          </div>
-                  </div>
+    
+     <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 my-4">
+            <div class="card rounded-0">
+              <div class="card-body">
+                <img id="detalle-img" src="../assets/img/adp.jpg" alt="">
               </div>
-              </div>
+            </div>
           </div>
+          <div class="col-6 my-4">
+            <div class="card rounded-0">
+              <div class="card-body">
+                      <div class="header">
+                          <img src="../assets/img/userA.jpg" id="imgCard" alt="">
+                          <a href="perfil.html" id="nameUser" >Adop a Pet</a>
+                      
+                          <div class="dropdown" style="float:left;">
+                              <i class="fas fa-ellipsis-h" class="dropbtn"></i>
+                                                           
+                               <div class="dropdown-content" style="left:0;">
+                                 <a href="#"><i class="fas fa-trash-alt"></i>  Eliminar</a>
+                                 <a href="post-foto-Adop-Update.html"><i class="fas fa-pen"></i>  Actualizar</a>
+                                 <a href="#"><i class="fas fa-times"></i>  Cerrar</a>
+                               </div>
+                          </div>
+
+                          <br>
+                    
+                            <div class="row" id="frm">
+                              <div class="col-sm-12" >
+                                <label  > Nombre de la Mascota </label>
+                                  <p class="nameM">Lindo Cachorrito Busca Hogar</p>
+                              </div>
+                            
+                            </div>
+                            <br>
+                            <div class="row">
+                              <div class="col-sm-6" >
+                                <label > Tipo de Mascota </label>
+                                <p class="nameM">Perro</p>
+                               </div>
+                              <div class="col-sm-6" >
+                                <label > Raza de la Mascota </label>
+                                <p class="nameM">Castellano</p>
+                              </div>
+                           
+                            </div>
+                            <br>
+                            
+                            <div class="row">
+                              <div class="col-sm-6" >
+                                <label > Numero de Contacto </label>
+                               
+                               </div>
+                               <div class="col-sm-6" >  
+                                  <p id="contacto">09********</p>
+                               </div>
+                            </div>
+                            
+                             <br>
+                            <div class="row" >
+                              <div class="col-sm-12">
+                                <label > Descripcion General de la Mascota </label>
+                                    <p>
+                                      El Cachorrito tiene 1 mes de nacido, esta con todas sus vacuanas al día
+                                      
+                                    </p>
+                              </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row" id="footer">
+                              <div class="col-lg-6 ">
+                                  <a href="" id="itm" ><i class="fas fa-heart"></i> Me gusta </a>
+                              </div>                                       
+                              <div class="col-lg-6 ">
+                                  <a href="" id="itm" ><i class="fas fa-share"></i> Compartir</a>
+                              </div>
+                             
+                          </div>
+                          <br>
+                          <div class="col-lg-12  ">
+                            
+                                <button  data-toggle="modal" data-target="#ventanaModal" class="btn btn-outline-dark btn-lg btn-block">  Adoptar </button>
+                                              
+                        </div>
+                               <br>
+                         
+
+                      </div>
+                      <br>
+                      <br>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+       
 
           <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog" aria-label="tituloVentana" aria-hidden="true" >
             <div class="modal-dialog modal-dialog-centered" role="document">
