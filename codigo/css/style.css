@@ -42,9 +42,9 @@ a:hover {
     padding-bottom: 5rem;
 }
 
-/*.btn-search {
+.btn-search {
     right: 0;
-}*/
+}
 
 #cambio_icono::after {
     display: none;

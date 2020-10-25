@@ -9,3 +9,17 @@
   border-radius: 15px;
   box-shadow: 0px 3px 2px 3px#BCBCBC;
 }
+
+@media (max-width: 480px) {
+  .formulario {
+    margin-top: 170px;
+  }
+
+  .formulario2 h2 {
+    font-size: 100%;
+  }
+
+  .formulario2 {
+    width: 70%;
+  }
+}

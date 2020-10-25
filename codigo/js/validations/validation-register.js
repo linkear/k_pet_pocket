@@ -74,7 +74,6 @@ var validacionRegistro = function () {
             .html("")
             .removeClass("text-danger")
             .addClass("text-success");
-        $(location).attr('href','./public/home-tienda.html');
         f = true;
     }
 
