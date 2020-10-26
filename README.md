@@ -7,43 +7,34 @@ Por la cuál se va a crear una **Red Social** para nuestros amigos caninos de cu
 
 La Red Social constara con los siguientes modulos:
 
+* Home
 * Tienda Pet
 * Adopción 
 * Veterinaria 
 
-**Tienda Pet** servirá para que las personas puedan poner a la venta sus productos que esten relacionados con nuestras mascotas.
+**Adopción** servirá para que las personas puedan publicar sobre mascotas que busquen un hogar y a la vez poder adoptar a las mismas.
 
 ### Wireframes (Balsamiq)
+![Screenshot](Home.png)
+![Screenshot](Detalle de imagen y comentarios.png) 
+![Screenshot](Post de Usuario.png)
+![Screenshot](Actualizar Post del Usuario.png)
+![Screenshot](Perfil.png)
+![Screenshot](Home Adopcion.png)
+![Screenshot](Detalle de adopcion.png)
+![Screenshot](Actualizar post adopcion.png)
+![Screenshot](Formulario de adopcion.png)
 
-![Login](wireframes/Login.png)
 
-![Registro](wireframes/Registro.png)
-
-![HomeTienda](wireframes/Home-Tienda.png)
-
-![DetalleProducto](wireframes/InformaciónArticulo-Tienda.png)
-
-![MisProductos](wireframes/MisArtículos-Tienda.png)
-
-![CrearProducto](wireframes/NuevoProducto-Tienda.png)
-
-![ActualizarProducto](wireframes/ActualizarProducto-Tienda.png)
 
 ### Mockups (Adobe xd)
-
-![Login](Mockups/Login.png)
-
-![Registro](Mockups/Registro.png)
-
-![HomeTienda](Mockups/HomeTienda.png)
-
-![DetalleProducto](Mockups/Detalleproducto.png)
-
-![MisProductos](Mockups/Misproductos.png)
-
-![CrearProducto](Mockups/CrearProducto.png)
-
-![ActualizarProducto](Mockups/ActualizarProducto.png)
-
-
+![Screenshot](HOME.png)
+![Screenshot](Detalle.png)
+![Screenshot](F.Post User.png)
+![Screenshot](Actualizar Post - Publicacion Usuario.png)
+![Screenshot](Perfil.png)
+![Screenshot](Adopcion Home.png)
+![Screenshot](Detalle Adopcion.png)
+![Screenshot](Actualizar Post - Publicacion Adopcion.png)
+![Screenshot](Formulario de Adopcion.png)
 
