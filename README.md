@@ -7,16 +7,31 @@ Por la cuál se va a crear una **Red Social** para nuestros amigos caninos de cu
 
 La Red Social constara con los siguientes modulos:
 
+* Home
 * Tienda Pet
 * Adopción 
 * Veterinaria 
 
+<<<<<<< HEAD
 **Adopción** servirá para que las personas puedan sobre mascotas que buscan un hogar.
 
 
+=======
+**Adopción** servirá para que las personas puedan publicar sobre mascotas que busquen un hogar y a la vez poder adoptar a las mismas.
+>>>>>>> eefd56e1cb05c7ce36f79abfa20b445485c77352
 
 ### Wireframes (Balsamiq)
+![Screenshot](Home.png)
+![Screenshot](Detalle de imagen y comentarios.png) 
+![Screenshot](Post de Usuario.png)
+![Screenshot](Actualizar Post del Usuario.png)
+![Screenshot](Perfil.png)
+![Screenshot](Home Adopcion.png)
+![Screenshot](Detalle de adopcion.png)
+![Screenshot](Actualizar post adopcion.png)
+![Screenshot](Formulario de adopcion.png)
 
+<<<<<<< HEAD
 ![Home](Wireframes/Home.png)
 
 ![Detalledeimagenycomentarios](Wireframes/Detalledeimagenycomentarios.png)
@@ -64,4 +79,18 @@ La Red Social constara con los siguientes modulos:
 
 
 
+=======
+
+
+### Mockups (Adobe xd)
+![Screenshot](HOME.png)
+![Screenshot](Detalle.png)
+![Screenshot](F.Post User.png)
+![Screenshot](Actualizar Post - Publicacion Usuario.png)
+![Screenshot](Perfil.png)
+![Screenshot](Adopcion Home.png)
+![Screenshot](Detalle Adopcion.png)
+![Screenshot](Actualizar Post - Publicacion Adopcion.png)
+![Screenshot](Formulario de Adopcion.png)
+>>>>>>> eefd56e1cb05c7ce36f79abfa20b445485c77352
 
