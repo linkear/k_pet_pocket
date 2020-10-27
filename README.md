@@ -11,39 +11,57 @@ La Red Social constara con los siguientes modulos:
 * Adopción 
 * Veterinaria 
 
-**Tienda Pet** servirá para que las personas puedan poner a la venta sus productos que esten relacionados con nuestras mascotas.
+**Adopción** servirá para que las personas puedan sobre mascotas que buscan un hogar.
+
+
 
 ### Wireframes (Balsamiq)
 
-![Login](wireframes/Login.png)
+![Home](Wireframes/Home.png)
 
-![Registro](wireframes/Registro.png)
+![Detalledeimagenycomentarios](Wireframes/Detalledeimagenycomentarios.png)
 
-![HomeTienda](wireframes/Home-Tienda.png)
+![PostdelUsuario](Wireframes/PostdelUsuario.png)
 
-![DetalleProducto](wireframes/InformaciónArticulo-Tienda.png)
+![ActualizarPostdelUsuario](Wireframes/ActualizarPostdelUsuario.png)
 
-![MisProductos](wireframes/MisArtículos-Tienda.png)
+![PerfilUsuario](Wireframes/PerfilUsuario.png)
 
-![CrearProducto](wireframes/NuevoProducto-Tienda.png)
+![HomeAdopcion](Wireframes/HomeAdopcion.png)
 
-![ActualizarProducto](wireframes/ActualizarProducto-Tienda.png)
+![Detalledeadopcion](Wireframes/Detalledeadopcion.png)
+
+![PostdeAdopcion](Wireframes/PostdeAdopcion.png)
+
+![ActualizarPostdeadopcion](Wireframes/ActualizarPostdeadopcion.png)
+
+![Formulariodeadopcion](Wireframes/Formulariodeadopcion.png)
 
 ### Mockups (Adobe xd)
 
-![Login](Mockups/Login.png)
+![HOME](Mockups/HOME.png)
 
-![Registro](Mockups/Registro.png)
+![Detalle](Mockups/Detalle.png)
 
-![HomeTienda](Mockups/HomeTienda.png)
+![F.PostUser](Mockups/F.PostUser.png)
 
-![DetalleProducto](Mockups/Detalleproducto.png)
+![ActualizarPost-PublicacionUsuario](Mockups/ActualizarPost-PublicacionUsuario.png)
 
-![MisProductos](Mockups/Misproductos.png)
+![Perfil](Mockups/Perfil.png)
 
-![CrearProducto](Mockups/CrearProducto.png)
+![AdopcionHome](Mockups/AdopcionHome.png)
 
-![ActualizarProducto](Mockups/ActualizarProducto.png)
+![DetalleAdopcion](Mockups/DetalleAdopcion.png)
+
+![F.PostAdopcion](Mockups/F.PostAdopcion.png)
+
+![ActualizarPost-PublicacionAdopcion](Mockups/ActualizarPost-PublicacionAdopcion.png)
+
+![FormulariodeAdopcion](Mockups/FormulariodeAdopcion.png)
+
+
+
+
 
 
 
