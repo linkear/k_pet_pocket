@@ -1,5 +1,5 @@
 
-## Objetivos personales 
+## Objetivos Personales 
 
 * Aprender más sobre Scrum y como emplearla en la vida real.
 * Aprender a trabajar en grupo mediante plataformas digitales.
@@ -13,6 +13,7 @@ Por la cuál se va a crear una **Red Social** para nuestros amigos caninos de cu
 
 La Red Social constara con los siguientes modulos:
 
+* Home
 * Tienda Pet
 * Adopción 
 * Veterinaria 
