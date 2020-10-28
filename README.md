@@ -1,4 +1,10 @@
 
+## Objetivos personales 
+
+* Aprender más sobre Scrum y como emplearla en la vida real.
+* Aprender a trabajar en grupo mediante plataformas digitales.
+* Aprender a usar mejor herramientas de prototipado, para así mejorar nuestras interfaces de usuario.
+
 ## Investigación :dog:
 
 La investigación se realizó a personas que aman a los animales, muchas de ellas dicen que si bien hay sitios en internet en favor de ellos, no hay una plataforma en la cual puedan interactuar entre si, ya sea publicando fotos, recomendaciones, articulos en venta, etc.
