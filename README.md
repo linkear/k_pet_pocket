@@ -1,3 +1,9 @@
+## Objetivos Personales
+
+* Explotar un poco más mi creatividad y ver cómo juntarle con la programación ...
+  Después de finalizar todo esto quiero hacerme un auto análisis y ver que aprendí en que mejore y que debo reforzar... Esto me sirve para ver cómo entre y como salí de esta fase práctica 
+* Salir de viaje y después culminar los módulos de ingles 
+* Aprender un poco mas sobre nuevas herramientas de programación  como de diseño gráfico 
 
 ## Investigación :dog:
 
